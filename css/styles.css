@@ -169,7 +169,7 @@ p {
 }
 .action {
   background-color: var(--titel-bgr-color);
-
+  background-repeat: no-repeat;
   background-position: center;
   background-image: linear-gradient(
       to right,
@@ -651,10 +651,10 @@ p {
   background-color: var(--accent-bgr-color);
 }
 .button-list {
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
-   justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 /* -------------------------butst ------------------------------------------------{
   display: flex;
