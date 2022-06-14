@@ -169,7 +169,7 @@ p {
 }
 .action {
   background-color: var(--titel-bgr-color);
-  background-repeat: no-repeat;
+
   background-position: center;
   background-image: linear-gradient(
       to right,
@@ -375,7 +375,9 @@ p {
   background-color: var(--header-bgr-color);
 }
 /*crew-item*/
-
+.crew-position{
+   margin-bottom: 16px;
+}
 .crew-item:nth-child(4n) {
   margin-right: 0;
 }
@@ -412,6 +414,7 @@ p {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
+
 }
 
 .social-list {
@@ -651,10 +654,10 @@ p {
   background-color: var(--accent-bgr-color);
 }
 .button-list {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
 }
 /* -------------------------butst ------------------------------------------------{
   display: flex;
