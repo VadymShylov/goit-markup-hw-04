@@ -149,11 +149,11 @@ p {
 .contact-list .item + .item {
   margin-left: 50px;
 }
-.icon-contact{
-   margin-right: 10px;
+.icon-contact {
+  margin-right: 10px;
 }
-.icon-contact{
-   fill:currentColor;
+.icon-contact {
+  fill: currentColor;
 }
 /*contact*/
 
@@ -175,7 +175,7 @@ p {
 }
 .action {
   background-color: var(--titel-bgr-color);
-
+  background-repeat: no-repeat;
   background-position: center;
   background-image: linear-gradient(
       to right,
@@ -194,8 +194,8 @@ p {
 
 /*title*/
 .title {
-  margin-top: 0;
-
+  max-width: 696px;
+  margin: auto;
   color: var(--title-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -381,8 +381,8 @@ p {
   background-color: var(--header-bgr-color);
 }
 /*crew-item*/
-.crew-position{
-   margin-bottom: 16px;
+.crew-position {
+  margin-bottom: 16px;
 }
 .crew-item:nth-child(4n) {
   margin-right: 0;
@@ -420,7 +420,6 @@ p {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
-
 }
 
 .social-list {
@@ -660,10 +659,10 @@ p {
   background-color: var(--accent-bgr-color);
 }
 .button-list {
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
-   justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 /* -------------------------butst ------------------------------------------------{
   display: flex;
