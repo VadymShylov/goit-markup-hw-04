@@ -646,7 +646,9 @@ p {
   flex-direction: row;
   justify-content: center;
 }
-
+.portfolio-link{
+   display:block;
+}
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
