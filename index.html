@@ -22,10 +22,10 @@
     <!--Шапка сайта-->
     <header class="nav">
       <div class="container main-nav">
+            <a href="./index.html" class="nav-logo"><span class="span-logo">Web</span>Studio
+            </a>
         <nav class="header-nav">
-          <a href="./index.html" class="nav-logo"
-            ><span class="span-logo">Web</span>Studio
-          </a>
+          
           <ul class="nav-list list">
             <li class="item">
               <a href="" class="nav-link current">Студия</a>
@@ -77,7 +77,13 @@
       <section class="advantages section no-padding">
         <div class="container">
           <ul class="advantages-list">
-            <li class="advantages-item icon-antenna">
+            <li class="advantages-item">
+               <div class="adv-wrap">
+                  <svg class="advantages-icon" width="70" height="70">
+                     <use href="./images/symbol-defs.svg#icon-antenna"></use>
+                  </svg>
+               </div>
+
               <h3 class="advantages-title">Внимание к деталям</h3>
               <p class="advantages-text">
                 Идейные соображения, а также начало повседневной работы по
@@ -85,7 +91,12 @@
               </p>
             </li>
 
-            <li class="advantages-item icon-clock">
+            <li class="advantages-item">
+               <div class="adv-wrap">
+                  <svg class="advantages-icon" width="70" height="70">
+                     <use href="./images/symbol-defs.svg#icon-clock"></use>
+                  </svg>
+               </div>
               <h3 class="advantages-title">Пунктуальность</h3>
               <p class="advantages-text">
                 Задача организации, в особенности же рамки и место обучения
@@ -93,7 +104,12 @@
               </p>
             </li>
 
-            <li class="advantages-item icon-diagram">
+            <li class="advantages-item">
+               <div class="adv-wrap">
+                  <svg class="advantages-icon" width="70" height="70">
+                     <use href="./images/symbol-defs.svg#icon-diagram"></use>
+                  </svg>
+               </div>
               <h3 class="advantages-title">Планирование</h3>
               <p class="advantages-text">
                 Равным образом консультация с широким активом в значительной
@@ -101,7 +117,12 @@
               </p>
             </li>
 
-            <li class="advantages-item icon-astronaut">
+            <li class="advantages-item">
+               <div class="adv-wrap">
+                  <svg class="advantages-icon" width="70" height="70">
+                     <use href="./images/symbol-defs.svg#icon-astronaut"></use>
+                  </svg>
+               </div>
               <h3 class="advantages-title">Современные технологии</h3>
               <p class="advantages-text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -440,8 +461,8 @@
       </section>
 
       <!--clients-->
-      <section class="clients">
-        <div class="section">
+      <section class="clients section">
+        
           <div class="container">
             <h2 class="clients-title">Постоянные клиенты</h2>
             <div class="clients-box">
@@ -522,7 +543,7 @@
               </ul>
             </div>
           </div>
-        </div>
+        
       </section>
     </main>
     <!--Footer-->
