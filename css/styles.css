@@ -278,9 +278,9 @@ display: flex;
    margin-bottom: 30px;
    background-color: var(--team-section-bgr-color);
 }
-.feature-icon {
+.advantages-icon {
    display: block;
-   background-color: var(--bgColorTertiary);
+   background-color: var(--team-section-bgr-color);
 }
 /*description*/
 
