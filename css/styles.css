@@ -483,9 +483,7 @@ p {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer-content {
-  display: flex;
-}
+
 /*footer-container*/
 
 /*futer-logo*/
@@ -558,9 +556,9 @@ p {
   display: flex;
   align-items: baseline;
 }
-.footer-wrap {
+/*.footer-wrap {
   width: 231px;
-}
+}*/
 .join-box {
   margin-left: 70px;
 }
